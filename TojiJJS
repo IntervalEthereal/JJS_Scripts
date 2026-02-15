@@ -1,0 +1,12 @@
+local exec = identifyexecutor()
+print(exec)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Loading...", 
+	Text = "Please wait, it will be lag when loaded."
+})
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/becfa82697b56b58241b2199c786be8a12adf105b22b96ca205395ae0bc3aa95/download"))()
+print("so tuff boiii")
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Success.", 
+	Text = "If it laggy rejoin, ill fix later im lazy." 
+})
